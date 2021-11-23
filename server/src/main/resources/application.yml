@@ -1,0 +1,10 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: server
+  datasource:
+    url: jdbc:mysql://47.98.137.243:3306/gulimall_oauth2?useSSL=false
+    username: root
+    password: roottoor
+    driver-class-name: com.mysql.cj.jdbc.Driver
