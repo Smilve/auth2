@@ -17,3 +17,5 @@
 # 客户端模式
 # 最方便但最不安全的，要求对客户端必须完全信任，一般用来提供给完全信任的服务端服务，如合作方系统对接，拉取一组用户信息
 请求token：localhost:8000/oauth/token?client_id=client1&client_secret=123123&grant_type=client_credentials
+
+当访问需要权限的资源时：请求头需要带上：Authorization:Bearer token
